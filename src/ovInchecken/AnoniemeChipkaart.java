@@ -4,10 +4,11 @@ public class AnoniemeChipkaart {
 	    boolean ingecheckt;
 	    double instaptarief;
 	    
-	    public AnoniemeChipkaart(double instaptarief) {
+	    public void chipkaart(double instaptarief) {
 	        this.ingecheckt = false;
 	        this.instaptarief = instaptarief;
 	    }
+	    
 
 		public void inchecken() {
 			// TODO Auto-generated method stub

@@ -23,10 +23,20 @@ public class OplaadPaal {
 		}
 	}
 
-
-
 	public void opladen(double bedrag) {
 		saldo += bedrag;
 		System.out.println("Saldo opgewaardeerd! Nieuw saldo: " + saldo);
+	}
+}
+
+    class Station {
+	String naam;
+	double Breedtegraad;
+	double Lengtegraad;
+
+	public Station(String naam, double latitude, double longitude) {
+		this.naam = naam;
+		this.Breedtegraad = Breedtegraad;
+		this.Lengtegraad = Lengtegraad;
 	}
 }
